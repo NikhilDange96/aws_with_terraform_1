@@ -1,0 +1,36 @@
+# Local .terraform directories (contains provider binaries and modules)
+**/.terraform/*
+
+# .tfstate files (contains sensitive system data and credentials)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all variable files as they often contain secrets and passwords
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are used for local alterations
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control
+# !example_override.tf
+
+# Include lock file if you wish to lock provider versions (Recommended)
+# Delete or comment out the line below if you prefer to ignore it
+!**/.terraform.lock.hcl
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore plan outputs (can contain sensitive unencrypted data)
+*.tfplan
+day-01/.terraform.lock.hcl
+day-02/.terraform.lock.hcl
