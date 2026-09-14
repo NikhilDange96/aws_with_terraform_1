@@ -34,3 +34,6 @@ terraform.rc
 *.tfplan
 day-01/.terraform.lock.hcl
 day-02/.terraform.lock.hcl
+day-03/.terraform.lock.hcl
+
+day-03/.terraform.lock.hcl
