@@ -36,4 +36,9 @@ day-01/.terraform.lock.hcl
 day-02/.terraform.lock.hcl
 day-03/.terraform.lock.hcl
 
-day-03/.terraform.lock.hcl
+*/.terraform.lock.hcl
+
+day-04/file-provisner/custom-key.pem
+C:\Users\n\aws_with_terraform_1\day-04\file-provisner\.terraform.lock.hcl
+C:\Users\n\aws_with_terraform_1\day-04\file-provisner\custom-key.pem
+C:\Users\n\aws_with_terraform_1\day-04\file-provisner\.terraform.lock.hcl
