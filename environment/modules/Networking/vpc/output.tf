@@ -9,3 +9,7 @@ output "vpc_cidr" {
 output "internet_gateway_id" {
   value = aws_internet_gateway.main.id
 }
+
+output "eip_id" {
+  value = aws_eip.lb.id
+}

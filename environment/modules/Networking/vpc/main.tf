@@ -24,3 +24,11 @@ resource "aws_internet_gateway" "main" {
     }
   )
 }
+
+resource "aws_eip" "lb" {
+  
+  domain   = "vpc"
+}
+
+ 
+
